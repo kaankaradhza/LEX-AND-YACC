@@ -19,7 +19,7 @@ program
         :declarations function {printf("Input accepted\n");exit(0);}
         ;
 declarations
-        :trype variables SEMICOLON
+        :type variables SEMICOLON
         |
         ;
 type
