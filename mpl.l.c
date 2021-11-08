@@ -1,8 +1,8 @@
 %{
     #include<stdio.h>
-    #include "y.tab.h"
-    #include<stdlib.h>
-    #include "mytable.h"
+	#include<stdlib.h>
+	#include<malloc.h>
+	#include<string.h>
 %}
 letter [a-zA-Z]
 digit [0-9]
