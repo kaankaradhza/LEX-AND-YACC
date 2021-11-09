@@ -54,7 +54,7 @@ statements
 expressions
         :IDENTIFIER ASSIGNMENT expressions
         |IDENTIFIER
-        |DIGIT
+        |NUM
         ;
 %%
 
