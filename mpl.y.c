@@ -56,3 +56,13 @@ expressions
         |IDENTIFIER
         |DIGIT
         ;
+%%
+
+#include "lex.yy.c"
+int main()
+{
+	yyin=fopen("input.c","r");
+	yyparse();
+	fclose(yyin);
+	return 0;
+}
