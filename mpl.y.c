@@ -17,7 +17,7 @@ main()
 
 %}
 
-%token IDENTIFIER NUM
+%token IDENTIFIER DIGIT
 %token INTEGER FLOAT CHAR
 %token AND OR LESSER_EQUAL GREATER_EQUAL EQUAL ASSIGNMENT
 %token IF ELSE WHILE BREAK
@@ -54,5 +54,5 @@ statements
 expressions
         :IDENTIFIER ASSIGNMENT expressions
         |IDENTIFIER
-        |NUM
+        |DIGIT
         ;
